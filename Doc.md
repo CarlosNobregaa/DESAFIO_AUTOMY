@@ -13,7 +13,7 @@
 
 1. Clone este repositório para sua máquina local:
 
-   git clone https://github.com/seu-usuario/repositorio.git
+   git clone https://github.com/CarlosNobregaa/DESAFIO_AUTOMY.git
    cd repositorio
 
 2. Instale as dependências do projeto backend:

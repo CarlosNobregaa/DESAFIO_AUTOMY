@@ -1,12 +1,12 @@
 from datetime import datetime
 
 def separar_baterias(dados):
-    hoje = datetime.today().date()  # Considerando apenas a data, sem hora
+    hoje = datetime.today().date()
     futuras, passadas = [], []
 
     for item in dados:
         data_str = item["data_agendamento"]
-        data_obj = datetime.strptime(data_str, "%d/%m/%Y").date()  # Convertendo para apenas data
+        data_obj = datetime.strptime(data_str, "%d/%m/%Y").date() 
 
         bateria = {
             "data": item["data_agendamento"],
